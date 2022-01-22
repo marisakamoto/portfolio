@@ -320,7 +320,7 @@ img {
 }
 
 .skills__html {
-  width: 95%;
+  width: 50%;
 }
 
 .skills__css {
@@ -342,6 +342,16 @@ img {
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
+}
+
+.work__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
 }
 
 .work__img {
